@@ -1,5 +1,7 @@
 <?php
 
+namespace ArrayExport;
+
 
 use ArrayToString\ArrayToStringUtil;
 use ArrayToString\SymbolManager\PhpArrayToStringSymbolManager;
@@ -46,7 +48,7 @@ class ArrayExport
     //--------------------------------------------
     private static function getClosureAsString(\Closure $closure)
     {
-        $func = new ReflectionFunction($closure);
+        $func = new \ReflectionFunction($closure);
         $filename = $func->getFileName();
         $start_line = $func->getStartLine() - 1; // it's actually - 1, otherwise you wont get the function() block
         $end_line = $func->getEndLine();

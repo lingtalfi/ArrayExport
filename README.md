@@ -21,6 +21,7 @@ Paste the following code in a file, and execute it in a browser (or via the comm
 ```php
 <?php
 
+use ArrayExport\ArrayExport;
 
 require "bigbang.php";
 
