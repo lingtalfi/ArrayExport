@@ -18,7 +18,7 @@ Install
 
 Using the [uni tool](https://github.com/lingtalfi/universe-naive-importer)
 ```bash
-uni import ArrayExport
+uni import Ling/ArrayExport
 ```
 
 
@@ -31,7 +31,7 @@ Paste the following code in a file, and execute it in a browser (or via the comm
 ```php
 <?php
 
-use ArrayExport\ArrayExport;
+use Ling\ArrayExport\ArrayExport;
 
 require "bigbang.php";
 

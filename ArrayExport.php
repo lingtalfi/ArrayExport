@@ -1,10 +1,10 @@
 <?php
 
-namespace ArrayExport;
+namespace Ling\ArrayExport;
 
 
-use ArrayToString\ArrayToStringUtil;
-use ArrayToString\SymbolManager\PhpArrayToStringSymbolManager;
+use Ling\ArrayToString\ArrayToStringUtil;
+use Ling\ArrayToString\SymbolManager\PhpArrayToStringSymbolManager;
 
 class ArrayExport
 {
